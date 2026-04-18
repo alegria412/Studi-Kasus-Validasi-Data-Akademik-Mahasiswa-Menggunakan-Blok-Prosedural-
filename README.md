@@ -7,7 +7,9 @@ Project ini adalah implementasi Stored Procedure di MySQL untuk memvalidasi data
 Program akan memproses beberapa data penting seperti:
 
 -Status pembayaran
+
 -Jumlah SKS yang diambil
+
 -Indeks Prestasi Kumulatif (IPK)
 
 Hasilnya ditampilkan dalam bentuk informasi yang jelas, terstruktur, dan mudah dipahami.

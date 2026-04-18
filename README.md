@@ -38,6 +38,7 @@ Operator logika (AND, OR) untuk kombinasi kondisi
 CONCAT untuk menggabungkan output
 
 📂 Struktur Program
+
 🔹 Bagian A – Identitas Mahasiswa
 
 Menampilkan informasi dasar mahasiswa yang meliputi nama, NIM, semester, program studi, dan kampus.

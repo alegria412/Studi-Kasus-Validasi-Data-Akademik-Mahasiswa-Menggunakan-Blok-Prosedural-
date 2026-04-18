@@ -1,4 +1,5 @@
 🎓 Sistem Validasi Data Akademik Mahasiswa dan Kelayakan KRS Berbasis MySQL
+
 📌 Deskripsi
 
 Project ini merupakan implementasi blok prosedural dalam MySQL (Stored Procedure) yang digunakan untuk melakukan validasi data akademik mahasiswa serta menentukan kelayakan pengisian Kartu Rencana Studi (KRS).

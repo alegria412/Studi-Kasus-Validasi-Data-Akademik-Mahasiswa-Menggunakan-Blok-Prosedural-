@@ -6,25 +6,25 @@ Project ini adalah implementasi Stored Procedure di MySQL untuk memvalidasi data
 
 Program akan memproses beberapa data penting seperti:
 
-Status pembayaran
-Jumlah SKS yang diambil
-Indeks Prestasi Kumulatif (IPK)
+-Status pembayaran
+-Jumlah SKS yang diambil
+-Indeks Prestasi Kumulatif (IPK)
 
 Hasilnya ditampilkan dalam bentuk informasi yang jelas, terstruktur, dan mudah dipahami.
 
 🎯 Tujuan
 
-Adapun tujuan dari pengembangan program ini adalah:
+Project ini dibuat untuk:
 
-Memahami konsep dasar Stored Procedure dalam MySQL
-Mengimplementasikan penggunaan variabel dan konstanta
-Menerapkan logika percabangan (IF-ELSE) dalam pengolahan data
-Menghasilkan output yang sistematis dan informatif
+-Memahami konsep Stored Procedure di MySQL
+-Menggunakan variabel dan konstanta dalam database
+-Menerapkan logika percabangan (IF-ELSE)
+-Mengolah data menjadi output yang informatif
 
 ⚙️ Teknologi yang Digunakan
 MySQL
-SQL (Stored Procedure)
-phpMyAdmin (opsional)
+-SQL (Stored Procedure)
+-phpMyAdmin (opsional)
 
 🧠 Konsep yang Digunakan
 

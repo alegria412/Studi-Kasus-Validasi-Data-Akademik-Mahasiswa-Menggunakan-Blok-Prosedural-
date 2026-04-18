@@ -2,16 +2,15 @@
 
 📌 Deskripsi
 
-Project ini merupakan implementasi blok prosedural dalam MySQL (Stored Procedure) yang digunakan untuk melakukan validasi data akademik mahasiswa serta menentukan kelayakan pengisian Kartu Rencana Studi (KRS).
+Project ini adalah implementasi Stored Procedure di MySQL untuk memvalidasi data akademik mahasiswa dan menentukan apakah mahasiswa layak mengisi KRS (Kartu Rencana Studi).
 
-Program dirancang untuk mengolah data berdasarkan beberapa parameter, seperti:
+Program akan memproses beberapa data penting seperti:
 
 Status pembayaran
-Jumlah SKS
-Semester
+Jumlah SKS yang diambil
 Indeks Prestasi Kumulatif (IPK)
 
-Hasil dari program berupa informasi yang terstruktur, jelas, dan mudah dipahami.
+Hasilnya ditampilkan dalam bentuk informasi yang jelas, terstruktur, dan mudah dipahami.
 
 🎯 Tujuan
 

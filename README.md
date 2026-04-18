@@ -19,88 +19,118 @@ Hasilnya ditampilkan dalam bentuk informasi yang jelas, terstruktur, dan mudah d
 Project ini dibuat untuk:
 
 -Memahami konsep Stored Procedure di MySQL
+
 -Menggunakan variabel dan konstanta dalam database
+
 -Menerapkan logika percabangan (IF-ELSE)
+
 -Mengolah data menjadi output yang informatif
+
 
 ⚙️ Teknologi yang Digunakan
 MySQL
 -SQL (Stored Procedure)
+
 -phpMyAdmin (opsional)
 
 🧠 Konsep yang Digunakan
 
-Program ini mengimplementasikan beberapa konsep dalam pemrograman basis data, yaitu:
+Program ini menggunakan beberapa konsep dasar database:
 
-Stored Procedure untuk membungkus logika program
-Variabel untuk menyimpan data sementara
-Konstanta untuk nilai tetap
-Percabangan (IF-ELSE) untuk pengambilan keputusan
-Operator logika (AND, OR) untuk kombinasi kondisi
-CONCAT untuk menggabungkan output
+-Stored Procedure → untuk menyimpan dan menjalankan logika program
+
+-Variabel → menyimpan data sementara
+
+-Konstanta → nilai tetap
+
+-IF-ELSE → pengambilan keputusan
+
+-Operator Logika (AND, OR) → kombinasi 
+
+-CONCAT → menggabungkan teks output
 
 📂 Struktur Program
+🔹 A. Identitas Mahasiswa
 
-🔹 Bagian A – Identitas Mahasiswa
+Menampilkan data dasar:
 
-Menampilkan informasi dasar mahasiswa yang meliputi nama, NIM, semester, program studi, dan kampus.
+-Nama
 
-🔹 Bagian B – Validasi Data Akademik
+-NIM
 
-Melakukan validasi terhadap:
+-Semester
 
-Status pembayaran
-Jumlah SKS
-Semester
+-Program Studi
 
-Output yang dihasilkan:
+-Kampus
 
-Status data (Valid / Tidak Valid)
-Kategori beban studi
-Performa akademik berdasarkan IPK
-🔹 Bagian C – Penentuan Kelayakan KRS
+🔹 B. Validasi Data Akademik
+
+Memvalidasi:
+
+-Status pembayaran
+
+-Jumlah SKS
+
+Output:
+
+-Status data (Valid / Tidak Valid)
+
+-Kategori beban studi
+
+-Performa akademik berdasarkan IPK
+
+🔹 C. Kelayakan KRS
 
 Menentukan apakah mahasiswa:
 
-LAYAK atau
-TIDAK LAYAK
+✅ LAYAK
 
-Program juga memberikan:
+❌ TIDAK LAYAK
 
-Kategori beban studi
-Performa akademik
-Alasan keputusan
-🔹 Bagian D – Perbandingan Mahasiswa
+
+Disertai informasi:
+
+-Kategori beban studi
+
+-Performa akademik
+
+-Alasan keputusan
+
+🔹 D. Perbandingan Mahasiswa
 
 Membandingkan dua mahasiswa berdasarkan:
 
-IPK sebagai indikator utama
-SKS sebagai indikator tambahan
+IPK (utama)
 
-Output berupa kesimpulan mahasiswa yang lebih unggul.
+SKS (pendukung)
+
+Output:
+
+Kesimpulan siapa yang lebih unggul
 
 📊 Hasil Program
 
-Program mampu:
+Program dapat:
 
-Menampilkan identitas mahasiswa secara lengkap
-Melakukan validasi data akademik
-Menentukan kelayakan pengisian KRS
-Membandingkan performa akademik mahasiswa
+-Menampilkan identitas mahasiswa
+
+-Memvalidasi data akademik
+
+-Menentukan kelayakan KRS
+
+-Membandingkan performa mahasiswa
+
 🧠 Analisis
 
-Berdasarkan hasil pengujian, program telah berjalan sesuai dengan logika yang dirancang. Setiap bagian mampu menghasilkan output yang berbeda sesuai dengan kondisi input yang diberikan.
+Program berjalan sesuai dengan logika yang dirancang.
+Penggunaan:
 
-Penggunaan struktur percabangan dan variabel membuat program lebih fleksibel dan mudah dikembangkan.
+Variabel → membuat data fleksibel
 
-📝 Kesimpulan
+IF-ELSE → menghasilkan keputusan dinamis
 
-Program ini berhasil mengimplementasikan konsep blok prosedural dalam MySQL untuk menyelesaikan studi kasus validasi data akademik mahasiswa.
+Sehingga output dapat berbeda sesuai input yang diberikan.
 
-Selain itu, program juga mampu:
 
-Mengolah data secara sistematis
-Menghasilkan keputusan yang logis
-Menyajikan informasi yang jelas dan informatif
 
-Dengan demikian, praktikum ini dapat meningkatkan pemahaman terhadap pemrograman basis data serta kemampuan dalam menyusun logika program.

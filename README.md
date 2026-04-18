@@ -6,11 +6,11 @@ Project ini adalah implementasi Stored Procedure di MySQL untuk memvalidasi data
 
 Program akan memproses beberapa data penting seperti:
 
--Status pembayaran
+•	Status pembayaran
 
--Jumlah SKS yang diambil
+•	Jumlah SKS yang diambil
 
--Indeks Prestasi Kumulatif (IPK)
+•	Indeks Prestasi Kumulatif (IPK)
 
 Hasilnya ditampilkan dalam bentuk informasi yang jelas, terstruktur, dan mudah dipahami.
 
@@ -18,36 +18,38 @@ Hasilnya ditampilkan dalam bentuk informasi yang jelas, terstruktur, dan mudah d
 
 Project ini dibuat untuk:
 
--Memahami konsep Stored Procedure di MySQL
+•	Memahami konsep Stored Procedure di MySQL
 
--Menggunakan variabel dan konstanta dalam database
+•	Menggunakan variabel dan konstanta dalam database
 
--Menerapkan logika percabangan (IF-ELSE)
+•	Menerapkan logika percabangan (IF-ELSE)
 
--Mengolah data menjadi output yang informatif
+•	Mengolah data menjadi output yang informatif
 
 
 ⚙️ Teknologi yang Digunakan
-MySQL
--SQL (Stored Procedure)
+•	MySQL
 
--phpMyAdmin (opsional)
+
+•	SQL (Stored Procedure)
+
+•	phpMyAdmin (opsional)
 
 🧠 Konsep yang Digunakan
 
 Program ini menggunakan beberapa konsep dasar database:
 
--Stored Procedure → untuk menyimpan dan menjalankan logika program
+•	Stored Procedure → untuk menyimpan dan menjalankan logika program
 
--Variabel → menyimpan data sementara
+•	Variabel → menyimpan data sementara
 
--Konstanta → nilai tetap
+•	Konstanta → nilai tetap
 
--IF-ELSE → pengambilan keputusan
+•	IF-ELSE → pengambilan keputusan
 
--Operator Logika (AND, OR) → kombinasi 
+•	Operator Logika (AND, OR) → kombinasi 
 
--CONCAT → menggabungkan teks output
+•	CONCAT → menggabungkan teks output
 
 📂 Struktur Program
 
@@ -55,31 +57,31 @@ Program ini menggunakan beberapa konsep dasar database:
 
 Menampilkan data dasar:
 
--Nama
+1.	Nama
 
--NIM
+2.	NIM
 
--Semester
+3.	Semester
 
--Program Studi
+4.	Program Studi
 
--Kampus
+5.	Kampus
 
 🔹 B. Validasi Data Akademik
 
 Memvalidasi:
 
--Status pembayaran
+•	Status pembayaran
 
--Jumlah SKS
+•	Jumlah SKS
 
-Output:
+Output: 
 
--Status data (Valid / Tidak Valid)
+1.	Status data (Valid / Tidak Valid)
 
--Kategori beban studi
+2.	Kategori beban studi
 
--Performa akademik berdasarkan IPK
+3.	Performa akademik berdasarkan IPK
 
 🔹 C. Kelayakan KRS
 
@@ -92,19 +94,19 @@ Menentukan apakah mahasiswa:
 
 Disertai informasi:
 
--Kategori beban studi
+•	Kategori beban studi
 
--Performa akademik
+•	Performa akademik
 
--Alasan keputusan
+•	Alasan keputusan
 
 🔹 D. Perbandingan Mahasiswa
 
 Membandingkan dua mahasiswa berdasarkan:
 
-IPK (utama)
+•	IPK (utama)
 
-SKS (pendukung)
+•	SKS (pendukung)
 
 Output:
 
@@ -114,24 +116,65 @@ Kesimpulan siapa yang lebih unggul
 
 Program dapat:
 
--Menampilkan identitas mahasiswa
+1.	Menampilkan identitas mahasiswa
 
--Memvalidasi data akademik
+2.	Memvalidasi data akademik
 
--Menentukan kelayakan KRS
+3.	Menentukan kelayakan KRS
 
--Membandingkan performa mahasiswa
+4.	Membandingkan performa mahasiswa
 
 🧠 Analisis
 
-Program berjalan sesuai dengan logika yang dirancang.
-Penggunaan:
+Berdasarkan hasil pengujian:
 
-Variabel → membuat data fleksibel
+1.	Program berjalan sesuai dengan logika yang dirancang 
 
-IF-ELSE → menghasilkan keputusan dinamis
+2.	Setiap kondisi menghasilkan output yang berbeda
 
-Sehingga output dapat berbeda sesuai input yang diberikan.
 
+3.	Struktur percabangan berjalan dengan baik 
+
+4.	Output yang dihasilkan jelas dan mudah dipahami 
+
+
+
+📝 Kesimpulan
+
+Project ini berhasil:
+
+•	Mengimplementasikan konsep Stored Procedure dalam MySQL 
+
+•	Melakukan validasi data akademik secara sistematis 
+
+
+•	Menentukan kelayakan KRS dengan logika yang tepat 
+
+•	Menyajikan informasi secara jelas dan informatif 
+
+
+Project ini sangat membantu dalam meningkatkan pemahaman tentang:
+
+•	Pemrograman basis data 
+
+•	Logika algoritma
+
+•	Pengolahan data akademik 
+
+
+
+👥 Anggota Kelompok
+
+•	Nur Fahila dan Hasriani – Analisis Studi Kasus 
+
+•	Riadarmawangsi – Penulisan Kode 
+
+•	Bersama-sama – Penyusunan Laporan 
+
+•	Nur Fahila & Ria – Pengujian Program 
+
+📄 Lisensi
+
+Project ini dibuat untuk keperluan praktikum dan pembelajaran.
 
 
